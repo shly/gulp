@@ -14,3 +14,6 @@ gulp.task('styles', function() {
 gulp.task('watch',function(){
 	gulp.watch('sass/demo.scss',['styles']);
 });
+gulp.task('hello',function(){
+	console.log('hello');
+});
